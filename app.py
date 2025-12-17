@@ -1,8 +1,8 @@
 import streamlit as st
 
-from analyzer.ast_parser import analyze_code
-from analyzer.code_metrics import cyclomatic_complexity, max_nesting
-from recommender.task_generator import generate_task
+from ast_parser import analyze_code
+from code_metrics import cyclomatic_complexity, max_nesting
+from task_generator import generate_task
 
 st.title("CodeMentorAI – Python Code Weakness Analyzer")
 
